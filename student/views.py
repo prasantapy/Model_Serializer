@@ -2,7 +2,7 @@ from django.shortcuts import render
 import io
 from rest_framework.parsers import JSONParser
 from .models import Student_model
-from .serializers import student_serializer
+from .serializers import student_serializer 
 from rest_framework .renderers import JSONRenderer
 from django.http import HttpResponse,JsonResponse
 from django.views.decorators.csrf import csrf_exempt
