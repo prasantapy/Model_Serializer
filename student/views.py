@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render 
 import io
 from rest_framework.parsers import JSONParser
 from .models import Student_model
